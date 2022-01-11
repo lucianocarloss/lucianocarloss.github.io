@@ -1,0 +1,50 @@
+
+.body{
+    display: block;
+}
+
+
+.container{
+    position: relative;
+    /* padding: 10px; */
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    background-color: cornflowerblue;
+    box-shadow: 0 10px 16px 0 darkgrey;
+}
+
+.control{
+    position: absolute;
+    border-radius: 3%;
+    margin-left: 10%;
+    margin-right: 0;
+    bottom: 42px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.btn{
+    /* padding-right: 5px; */
+    margin: 5px;
+    position: relative;
+    bottom: 0;
+    top: 93%;
+}
+
+.timemusic{
+    /* background-color: darkgrey; */
+    
+    position: relative;
+    top: 90%;
+}
+
+#timing{
+    width: 80%;
+    height: 5px;
+    
+}
